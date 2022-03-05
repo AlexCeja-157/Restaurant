@@ -1,52 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant</title>
-    <link rel="stylesheet" href="css/Normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/logo.png">
-
-</head>
-<body>
-
-<header class="cabecera">
-    <div class="container">
+    <link rel="stylesheet" href="css/Normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/logo.png" />
+  </head>
+  <body>
+    <header class="cabecera">
+      <div class="container">
         <a href="index.html" class="link-logo">
-            <img class="logo" src="img/roma @robas.png" width="200" height="210" alt="Logo">
+          <img
+            class="logo"
+            src="img/roma @robas.png"
+            width="200"
+            height="210"
+            alt="Logo"
+          />
         </a>
         <nav class="menu">
-            <a href="index.html#lacarta">La carta</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="contacto.html">Contacto</a>
+          <a href="index.html#lacarta">La carta</a>
+          <a href="nosotros.html">Nosotros</a>
+          <a href="contacto.html">Contacto</a>
         </nav>
+      </div>
+    </header>
 
-    </div>
-
-</header>
-
-<main>
-    <section class="banner">
-        <img class="banner-home" src="img/banner.jpg" width="1880" height="1245" alt="">
-
-    </section>
-    <section id="lacarta">
+    <main>
+      <section id="banner">
+        <img
+          class="banner-home"
+          src="img/banner.jpg"
+          width="1880"
+          height="1245"
+          alt=""
+        />
         <div class="container">
-            <div class="fila">
-                <div class="columna">
-                    <h1>Lee nuestra carta</h1>
-                    <p>Contamos con los mejores sabores</p>
-                    <a href="#lacarta">Ver Carta</a>
-                </div>
+          <div class="fila">
+            <div class="columna columna-50">
+              <h1>Lee nuestra carta</h1>
+              <p>
+                Contamos con los mejores sabores y el mejor ambiente familiar.
+              </p>
+              <a href="#lacarta" class="btn boton-transparente">Ver Carta</a>
             </div>
+          </div>
         </div>
+      </section>
+      <section id="lacarta" class="seccion">
+        <div class="container">
+          <div class="fila">
+            <div class="columna columna-100 centrar-texto">
+              <h1>La Carta</h1>
+            </div>
+          </div>
+          <div class="fila">
+              <div class="columna columna-50 sin-padding">
+                <div class="contenedor-cuadrado">
+                    <img src="img/cafe.jpg" >
+                </div>
+              </div>
+            <div class="columna columna-50">
+              <div class="fila">
+                  <div class="columna columna-50 sin-padding">
+                    <div class="contenedor-cuadrado">
+                        <img src="img/mesa_1.jpg" >
+                    </div>
+                  </div>
+                  <div class="columna columna-50 sin-padding">
+                    <div class="contenedor-cuadrado">
+                        <img src="img/mesa_2.jpg" >
+                    </div>
+                  </div>
+                  <div class="columna columna-50 sin-padding">
+                    <div class="contenedor-cuadrado">
+                        <img src="img/mesa_3.jpg" >
+                    </div>
+                  </div>
+                  <div class="columna columna-50 sin-padding">
+                    <div class="contenedor-cuadrado">
+                        <img src="img/mesa_4.jpg" >
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="columna columna-50">
+              <p class="justificar-texto">
+                <span class="importante"
+                  >Lorem ipsum dolor sit amet consectetur </span
+                >, adipisicing elit. Inventore nam culpa assumenda perferendis
+                cupiditate animi, aut odio veritatis quia eius aperiam error ab
+                facilis nostrum repellendus placeat at natus harum!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti consectetur laborum alias molestias nisi ipsum dolorem
+                rerum reprehenderit harum, optio explicabo veniam ipsam quos
+                distinctio ex aspernatur dolores voluptas officiis!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-    </section>
-</main>
-
-<footer></footer>
-    
-</body>
+    <footer>
+      <div class="container">
+        <div class="fila">
+          <div class="columna"></div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
