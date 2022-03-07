@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/Normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="img/logo.png" />
+    <script
+      src="https://kit.fontawesome.com/0a3277d9af.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header class="cabecera">
@@ -22,10 +26,12 @@
           />
         </a>
         <nav class="menu">
-          <a href="index.html#lacarta">La carta</a>
-          <a href="nosotros.html">Nosotros</a>
+          <a href="#lacarta">La carta</a>
+          <a href="#locales">Locales</a>
+          <a href="#servicios">Servicios</a>
           <a href="contacto.html">Contacto</a>
         </nav>
+        <a href="" class="hamb"><i class="fa-solid fa-bars"></i></a>
       </div>
     </header>
 
@@ -54,53 +60,145 @@
         <div class="container">
           <div class="fila">
             <div class="columna columna-100 centrar-texto">
-              <h1>La Carta</h1>
+              <h2 class="titulos">La Carta</h2>
             </div>
           </div>
-          <div class="fila">
-              <div class="columna columna-50 sin-padding">
-                <div class="contenedor-cuadrado">
-                    <img src="img/cafe.jpg" >
+          <div class="fila columna">
+            <div class="columna columna-50 sin-padding orden">
+              <div class="contenedor-cuadrado">
+                <img src="img/cafe.jpg" />
+                <div class="contenido-cuadrado">
+                  <h2>Menu del dia</h2>
+                  <a href="#" class="btn boton-carta">Ir a menu</a>
                 </div>
-              </div>
-            <div class="columna columna-50">
-              <div class="fila">
-                  <div class="columna columna-50 sin-padding">
-                    <div class="contenedor-cuadrado">
-                        <img src="img/mesa_1.jpg" >
-                    </div>
-                  </div>
-                  <div class="columna columna-50 sin-padding">
-                    <div class="contenedor-cuadrado">
-                        <img src="img/mesa_2.jpg" >
-                    </div>
-                  </div>
-                  <div class="columna columna-50 sin-padding">
-                    <div class="contenedor-cuadrado">
-                        <img src="img/mesa_3.jpg" >
-                    </div>
-                  </div>
-                  <div class="columna columna-50 sin-padding">
-                    <div class="contenedor-cuadrado">
-                        <img src="img/mesa_4.jpg" >
-                    </div>
-                  </div>
               </div>
             </div>
             <div class="columna columna-50">
-              <p class="justificar-texto">
-                <span class="importante"
-                  >Lorem ipsum dolor sit amet consectetur </span
-                >, adipisicing elit. Inventore nam culpa assumenda perferendis
-                cupiditate animi, aut odio veritatis quia eius aperiam error ab
-                facilis nostrum repellendus placeat at natus harum!
+              <div class="fila">
+                <div class="columna columna-50 sin-padding">
+                  <div class="contenedor-cuadrado">
+                    <img src="img/mesa_1.jpg" />
+                  </div>
+                </div>
+                <div class="columna columna-50 sin-padding">
+                  <div class="contenedor-cuadrado">
+                    <img src="img/mesa_2.jpg" />
+                  </div>
+                </div>
+                <div class="columna columna-50 sin-padding">
+                  <div class="contenedor-cuadrado">
+                    <img src="img/mesa_3.jpg" />
+                  </div>
+                </div>
+                <div class="columna columna-50 sin-padding">
+                  <div class="contenedor-cuadrado">
+                    <img src="img/mesa_4.jpg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="locales">
+        <div class="container-full">
+          <div class="fila fila-centrada">
+            <div class="columna columna-50">
+              <h2 class="titulos">Locales</h2>
+              <p class="centrar-texto">
+                Contamos con 4 sucursales en la CDMX ubicadas dentro de las
+                zonas mas populares y reconocidas de la ciudad
               </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Corrupti consectetur laborum alias molestias nisi ipsum dolorem
-                rerum reprehenderit harum, optio explicabo veniam ipsam quos
-                distinctio ex aspernatur dolores voluptas officiis!
+              <ul>
+                <li>Ambiente Agradable</li>
+                <li>Excelente Servicio</li>
+                <li>Conexion Wifi</li>
+              </ul>
+              <p class="centrar-texto">
+                Cada una de nuestras sucursales cuenta con todas las medidas de
+                sanidad establecidas por el tema del covid-19, ya que nuestra
+                prioridad es la seguridad de nuestros clientes, se cuenta con
+                areas al aire libre y se ha implementado el servicio a domicilio
+                ya que tenemos establecido un cupo limitado para cada sucursal.
               </p>
+            </div>
+          </div>
+          <div class="fila margen-arriba">
+            <div class="columna columna-50 sin-padding">
+              <div class="contenedor-cuadrado cont-rect">
+                <img src="img/local_1.jpg" />
+                <div class="contenido-cuadrado">
+                  <h2 class="suc">Santa Fe</h2>
+                  <a href="#" class="btn btn-circulo borde-blanco"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="columna columna-50 sin-padding">
+              <div class="contenedor-cuadrado cont-rect">
+                <img src="img/local_2.jpg" />
+                <div class="contenido-cuadrado">
+                  <h2 class="suc">Centro Historico</h2>
+                  <a href="#" class="btn btn-circulo borde-blanco"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="columna columna-50 sin-padding">
+              <div class="contenedor-cuadrado cont-rect">
+                <img src="img/local_3.jpg" />
+                <div class="contenido-cuadrado">
+                  <h2 class="suc">Polanco</h2>
+                  <a href="#" class="btn btn-circulo borde-blanco"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="columna columna-50 sin-padding">
+              <div class="contenedor-cuadrado cont-rect">
+                <img src="img/local_4.jpg" />
+                <div class="contenido-cuadrado">
+                  <h2 class="suc">Zona Rosa</h2>
+                  <a href="#" class="btn btn-circulo borde-blanco"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="servicios">
+        <div class="container-full">
+          <div class="fila fila-centrada">
+            <div class="columna columna-50 margen-arriba">
+              <h2 class="titulos">Servicios</h2>
+            </div>
+          </div>
+          <div class="fila margen-arriba">
+            <div class="columna columna-33">
+                <div class="contenedor-serv">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h3>Tarjeta Debito y Credito</h3>
+                    <p>Aceptamos pago con cualquier tipo de tarjetas de Debito y Credito (Visa o Master Card)</p>
+                </div>
+            </div>
+            <div class="columna columna-33">
+                <div class="contenedor-serv">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <h3>Reservas</h3>
+                    <p>Las Reservaciones deben realizarse con un minimo de 24 horas de anticipacion y el cupo depende mucho de la hora y dia de reserva. </p>
+                </div>
+            </div>
+            <div class="columna columna-33">
+                <div class="contenedor-serv">
+                    <i class="fa-solid fa-motorcycle"></i>
+                    <h3>Servicio a domicilio</h3>
+                    <p>Contamos con Servicio a Domicilio en distancias no mayores a 5Km o nos encuentras dentro de aplicaciones como Rappi, UberEats, DidiFood </p>
+                </div>
             </div>
           </div>
         </div>
@@ -109,8 +207,8 @@
 
     <footer>
       <div class="container">
-        <div class="fila">
-          <div class="columna"></div>
+        <div class="fila margen-arriba">
+          <div class="columna">_</div>
         </div>
       </div>
     </footer>
